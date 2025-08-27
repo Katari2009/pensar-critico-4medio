@@ -1,0 +1,22 @@
+{
+  "name": "Pensar Crítico",
+  "short_name": "Pensar Crítico",
+  "description": "Reflexiona sobre el culto a la ignorancia y el rol de las redes en la era digital.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#6ECEDA",
+  "theme_color": "#6ECEDA",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
