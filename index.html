@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#6ECEDA" />
-    <meta name="description" content="Aplicación educativa: El culto a la ignorancia en la era digital" />
-    <title>Pensar Crítico</title>
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="icon" type="image/png" href="/icon-192.png" />
-    <link rel="apple-touch-icon" href="/icon-192.png" />
-    <script type="module" src="/App.jsx" defer></script>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="theme-color" content="#6ECEDA" />
+  <meta name="description" content="App educativa: El culto a la ignorancia en la era digital" />
+  <title>Pensar Crítico</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .glass.dark {
+      background: rgba(30, 30, 40, 0.6);
+      border: 1px solid rgba(80, 90, 100, 0.3);
+    }
+    .progress-bar {
+      height: 12px;
+      border-radius: 999px;
+      overflow: hidden;
+      background-color: #e9ecef;
+    }
+    .progress-fill {
+      height: 100%;
+      transition: width 0.5s ease;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-white transition-colors duration-300">
+
+  <div id="app">
+    <!-- App se carga aquí -->
+  </div>
+
+  <script>
+    // (Aquí va todo el código JavaScript que ya te entregué)
+    // ... (mismo script que en la versión HTML anterior)
+  </script>
+
+</body>
 </html>
